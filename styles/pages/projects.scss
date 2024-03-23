@@ -208,6 +208,8 @@ details p {
 .project-cards-container {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .project-card-container {
@@ -224,7 +226,7 @@ details p {
   position: relative;
   margin-bottom: -6px;
   width: 100%;
-  padding-bottom: 75%;
+  padding-bottom: 56.448%; /*Height of image relative to Width*/
 }
 .project-card-img-status {
   position: relative;
