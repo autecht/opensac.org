@@ -1,6 +1,6 @@
 "use client";
 import ProjectsSectionStart from "@/app/projects/projectsSectionStart";
-import ProjectCard from "@/app/projects/projectCard"
+import ProjectCard from "@/app/projects/projectCard";
 import { fetchJson } from "@/utils/fetcher";
 import useSWR from "swr";
 import * as yaml from "yaml";
@@ -36,6 +36,7 @@ export default function Projects() {
           sectionType={SectionType.light}
         ></ProjectsSectionStart>
         <div className = "project-cards-container">
+  
         </div>
       </div>
     </>
